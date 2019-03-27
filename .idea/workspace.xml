@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2b7c93-07ae-475b-890c-8614baf0df76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adflow/adextractutil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adflow/adflow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adflow/adloadutil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adflow/adtransformutil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/testadextractutil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/testadtransformutil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/cleanNullVisitors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/commontestutil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/firstevent.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/getFirstVisitByTimeStamp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/sampleloads.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/testtransform.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adflow/adextractutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/adflow/adextractutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adflow/adflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/adflow/adflow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adflow/adloadutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/adflow/adloadutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adflow/adtransformutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/adflow/adtransformutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testadextractutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testadextractutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testadloadutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testadloadutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testadtransformutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testadtransformutil.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../algos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../algos/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,29 +30,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adflow/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/adflow/adflow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adflow/adtransformutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-435">
-              <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/testadextractutil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="60">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="21" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -49,40 +50,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.5/os.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/testadflow.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/testadloadutil.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/testadtransformutil.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adflow/adloadutil.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state>
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adflow/adflow.py">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adflow/adloadutil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/commontestutil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,24 +98,41 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>click</find>
+      <find>test</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/adflow/adflow.py" />
-        <option value="$PROJECT_DIR$/adflow/adtransformutil.py" />
-        <option value="$PROJECT_DIR$/adflow/adloadutil.py" />
-        <option value="$PROJECT_DIR$/adflow/adextractutil.py" />
+        <option value="$PROJECT_DIR$/tests/sampleloads.json" />
+        <option value="$PROJECT_DIR$/tests/commontestutil.py" />
         <option value="$PROJECT_DIR$/tests/testadextractutil.py" />
+        <option value="$PROJECT_DIR$/adflow/adextractutil.py" />
+        <option value="$PROJECT_DIR$/tests/cleanNullVisitors.json" />
+        <option value="$PROJECT_DIR$/tests/getFirstVisitByTimeStamp.json" />
+        <option value="$PROJECT_DIR$/tests/firstevent.json" />
+        <option value="$PROJECT_DIR$/tests/secondevent.json" />
+        <option value="$PROJECT_DIR$/tests/testtransform.json" />
+        <option value="$PROJECT_DIR$/adflow/adtransformutil.py" />
+        <option value="$PROJECT_DIR$/tests/testadtransformutil.py" />
+        <option value="$PROJECT_DIR$/tests/testadloadutil.py" />
+        <option value="$PROJECT_DIR$/adflow/adflow.py" />
+        <option value="$PROJECT_DIR$/adflow/adloadutil.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="289" />
-    <option name="y" value="52" />
-    <option name="width" value="1400" />
+    <option name="x" value="136" />
+    <option name="y" value="24" />
+    <option name="width" value="1861" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -138,6 +157,22 @@
             <path>
               <item name="adserv" type="b2602c69:ProjectViewProjectNode" />
               <item name="adserv" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adserv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adserv" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adserv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adserv" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adserv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adserv" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -148,6 +183,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../algos" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,7 +197,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Unittests in testadloadutil.py">
+    <configuration name="adextractutil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adserv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/adflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adflow/adextractutil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="adloadutil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adserv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/adflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adflow/adloadutil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="testadextractutil" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="adserv" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,9 +261,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in testadloadutil.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="adserv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/testadloadutil.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in testadtransformutil.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="adserv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/testadtransformutil.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in testadloadutil.py" />
+        <item itemvalue="Python.adloadutil" />
+        <item itemvalue="Python tests.Unittests in testadtransformutil.py" />
         <item itemvalue="Python.testadextractutil" />
+        <item itemvalue="Python.adextractutil" />
       </list>
     </recent_temporary>
   </component>
@@ -202,24 +312,56 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_testadtransformutil_py - 2019.03.27 at 12h 57m 46s.xml">
+      <configuration name="Unittests in testadtransformutil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testadtransformutil_py - 2019.03.27 at 12h 58m 56s.xml">
+      <configuration name="Unittests in testadtransformutil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testadtransformutil_py - 2019.03.27 at 13h 00m 19s.xml">
+      <configuration name="Unittests in testadtransformutil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testadtransformutil_py - 2019.03.27 at 13h 01m 01s.xml">
+      <configuration name="Unittests in testadtransformutil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testadtransformutil_py - 2019.03.27 at 13h 01m 35s.xml">
+      <configuration name="Unittests in testadtransformutil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testadloadutil_py - 2019.03.27 at 13h 18m 09s.xml">
+      <configuration name="Unittests in testadloadutil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testadloadutil_py - 2019.03.27 at 13h 18m 41s.xml">
+      <configuration name="Unittests in testadloadutil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testadloadutil_py - 2019.03.27 at 13h 19m 38s.xml">
+      <configuration name="Unittests in testadloadutil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testadloadutil_py - 2019.03.27 at 13h 19m 55s.xml">
+      <configuration name="Unittests in testadloadutil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testadloadutil_py - 2019.03.27 at 13h 20m 21s.xml">
+      <configuration name="Unittests in testadloadutil.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="289" y="52" width="1400" height="1000" extended-state="0" />
+    <frame x="136" y="24" width="1861" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981844" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3298969" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18715996" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.3298969" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.27605957" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.46735394" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -229,62 +371,147 @@
     <entry file="file://$PROJECT_DIR$/adtransformutil.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/adflow/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/adflow/adflow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
+    <entry file="file:///usr/lib/python3.5/os.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/adflow/adtransformutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/adflow/adloadutil.py">
+    <entry file="file://$PROJECT_DIR$/tests/testadextractutil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adflow/adextractutil.py">
+    <entry file="file://$PROJECT_DIR$/tests/firstevent.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/secondevent.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state>
+          <caret column="242" selection-start-column="242" selection-end-column="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/cleanNullVisitors.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="132" selection-start-line="1" selection-start-column="132" selection-end-line="1" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/getFirstVisitByTimeStamp.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="242" lean-forward="true" selection-end-line="1" selection-end-column="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/sampleloads.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="175" lean-forward="true" selection-start-line="2" selection-start-column="175" selection-end-line="2" selection-end-column="175" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/testadflow.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///usr/lib/python3.5/os.py">
+    <entry file="file://$PROJECT_DIR$/tests/testtransform.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/local/part-00000-5a142ffd-e5c6-461f-beca-73937d787d3d-c000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/local/part-00000-1a403ce8-1022-44de-a23f-97d56a18e2b2-c000.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/testadloadutil.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/testadtransformutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/testadextractutil.py">
+    <entry file="file://$PROJECT_DIR$/adflow/adextractutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state>
+          <caret column="19" selection-start-column="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/commontestutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adflow/adloadutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adflow/adflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adflow/adtransformutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="21" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
         </state>
       </provider>
     </entry>
