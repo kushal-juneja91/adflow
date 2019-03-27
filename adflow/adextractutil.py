@@ -1,3 +1,8 @@
+"""
+Extract the data from text file
+provided.
+
+"""
 class AdExtractUtil():
     def getData(self, filelocation, filesystem, spark):
         if filesystem=='local':

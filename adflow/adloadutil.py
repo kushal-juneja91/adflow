@@ -1,3 +1,8 @@
+"""
+Functionality to write the data into hdfs
+or local filesystem in JSON or csv format
+
+"""
 class FileSaveUtil():
     def write_data(self,df, filename_with_location, filesystem=None, type='json'):
         df=df.coalesce(1)

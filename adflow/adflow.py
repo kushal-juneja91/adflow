@@ -1,3 +1,7 @@
+"""
+Simple cli interface to call the python script using arguments
+
+"""
 import click
 import unittest
 import logging
